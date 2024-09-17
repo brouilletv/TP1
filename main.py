@@ -1,9 +1,13 @@
-'''
-entete
-'''
-def count_word(x):
-    print(x.count(" ") + x.count("'") + 1)
+"""
+projet fair par: Vincent Brouillet
+groupe: 405
+conteur de mots
+"""
 
-x = input("")
 
-count_word(x)
+def count_word():
+    mots = input("")
+    print(mots.count(" ") + mots.count("'") + 1)
+
+
+count_word()
